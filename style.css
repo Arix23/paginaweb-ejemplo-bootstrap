@@ -1,0 +1,48 @@
+html, body {
+    /* Abarcar todo la pagina y cambiar fuente */
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body { 
+    /* Imagen de fondo */
+    background: url(header.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+.btn {
+    /* Cambiar color y redondeado */
+    background-color: rgb(206, 125, 12);
+    border-color: rgb(206, 125, 12);
+    border-radius: 25px;
+}
+
+.btn:hover {
+    /* Hacer que sea de cierto color cuando pasamos el mouse por encima */
+    background-color: rgb(182, 111, 10);
+    border-color: rgb(182, 111, 10);
+}
+
+hr {
+    /* cambiar color de la línea */
+    border-color: rgb(182, 111, 10);
+    /* cambiar tamaño y anchura */
+    width: 155px;
+    border-width: 3px;
+    /* Centrarlo */
+    margin-left: auto;
+    margin-right: auto;
+    /* Quitar transparencia */
+    opacity: 1;
+}
+
+h1 {
+    /* cambiar color y añadir margen para espaciado con el contenido */
+    color: rgb(209, 207, 207);
+    margin-bottom: 200px;
+    text-transform: uppercase;
+}
+
